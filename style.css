@@ -1,0 +1,169 @@
+.btn-delete:link, .btn-delete:visited {
+    background-color: #CD1818;
+    color: white;
+    font-size: .7em;
+    padding: 10px 9px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    
+    
+  }
+  
+  .btn-delete:hover, .btn-delete:active {
+    background-color:#FF0303;
+  }
+  .btn-default:link, .btn-default:visited {
+    background-color:#DDF7E3;
+    color: #777;
+    font-size: .7em;
+    flex-wrap: wrap;
+    padding: 11px 12px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  
+  .btn-default:hover, .btn-default:active {
+    background-color:white;
+  }
+  h3{
+    background: #ECF9FF;
+    padding: 30px 10px 30px 15px;
+    margin-left: 16px;
+    margin-right: 730px;
+    font-size: 1.7em;
+  }
+  
+  
+  /* Everything but the jumbotron gets side spacing for mobile first views */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  
+  .marketing{
+      padding: 0px;
+      border-radius: 0px;
+  }
+  
+  .container-narrow > hr {
+    margin: 0px 0;
+  }
+  
+  /* Main marketing message and sign up button */
+  .jumbotron {
+    text-align: center;
+  }
+  .jumbotron .btn {
+    padding: 0px;
+    font-size: 0px;
+  }
+  
+  /* Supporting marketing content */
+  .marketing {
+    margin: 0px 0;
+  }
+  .marketing p + h4 {
+    margin-top: 0px;
+  }
+  
+  /* Responsive: Portrait tablets and up */
+  @media screen and (min-width: 7630px) {
+    /* Remove the padding we set earlier */
+    .btn-default{
+      background-color: #CD1818;
+    color: white;
+    font-size: .7em;
+    padding: 10px 9px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+      border-bottom: 0;
+    }
+  }
+  
+  body{
+    padding-left: 211px;
+    
+  
+  }
+  .jumbotron{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ECF9FF;
+    text-align: center;
+    width: 650px;
+    height: 300px;
+    padding: 0px 0px 80px 90px;
+    padding-right: 110px;
+    padding-top: 1.5vh;
+    padding-bottom: 40px;
+  }
+  .jumbotron > h1{
+    padding-top: 2vh;
+    padding-left: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .header{
+    padding-top: 3vh;
+   margin-left: 1px;
+    padding-bottom: 18px;
+    font-size: .9em;
+  }
+  .form-control1{
+    background: white;
+    padding: 0px 250px 3px 10px;
+    padding-bottom: 5px;
+    padding-top: .6vh;
+    margin-left: 0px;
+    font-weight: 900;
+    border: 1px solid black;
+  }
+  .form-control2{
+    background: white;
+    padding: 0px 250px 3px 10px;
+    padding-bottom: 5px;
+    padding-top: .6vh;
+    margin-left: 0px;
+    font-weight: 900;
+    border: 1px solid black;
+    margin-bottom: 26px;
+  }
+  .form-group{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 0px 0px 0px 0px;
+    
+  }
+  button{
+      border-radius:2px;
+    background:#FFE6EB;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px 9px 15px;
+    padding-right: 15px;
+    border: 0.5px solid black;
+    font-weight: 800;
+    font-size: 1.1em;
+    padding-top: 1.5vh;
+    margin-left: 5px;
+  
+  }
+  button:hover{
+      background: #FAFCC2;
+      transition: all 0.3s ease-in-out;
+  }
+  footer {
+    padding-top: 228px;
+    font-weight: 500;
+    color:black;
+  }
