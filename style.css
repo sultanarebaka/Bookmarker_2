@@ -1,5 +1,5 @@
 .btn-delete:link, .btn-delete:visited {
-  background-color: #CD1818;
+  background-color:#FF0303;
   color: white;
   font-size: .7em;
   padding: 10px 9px;
@@ -13,7 +13,7 @@
 }
 
 .btn-delete:hover, .btn-delete:active {
-  background-color:#FF0303;
+  background-color:#CD1818;
 }
 .btn-default:link, .btn-default:visited {
   background-color:#DDF7E3;
@@ -92,8 +92,9 @@ body{
 }
 
 @media only screen and (max-width:700px){
-  .jumbotron .btn{
-    min-width: 900px;
+.body{
+    margin-right:900px;
+    width: 20px;
   }  
 }
 h3{
@@ -153,8 +154,9 @@ button:hover{
 }
 footer {
   padding-top: 228px;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   color:black;
   padding-left: 300px;
-  font-size: 1.2em;
+  font-size: .8em;
 }
