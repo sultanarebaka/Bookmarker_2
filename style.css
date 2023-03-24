@@ -29,12 +29,7 @@
 .btn-default:hover, .btn-default:active {
   background-color:white;
 }
-h3{
-  background: #ECF9FF;
-  padding: 10px 10px 10px 10px;
-  width:210px;
-  
-}
+
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header {
@@ -92,7 +87,7 @@ body{
 h3{
   background: #ECF9FF;
   padding: 30px 10px 30px 20px;
-  width:280px;
+  width:320px;
   font-size: 1.7em;
 }
 
@@ -153,6 +148,6 @@ footer {
 }
 @media only screen and (min-width:700px){
   footer{
-    display: flex;
+    display: inline-block;
   }  
 }
