@@ -46,7 +46,6 @@ h3{
     padding: 0px;
     border-radius: 0px;
 }
-
 .container-narrow > hr {
   margin: 0px 0;
 }
@@ -145,7 +144,7 @@ button:hover{
     background: #FAFCC2;
     transition: all 0.3s ease-in-out;
 }
-.footer {
+footer {
   padding-top: 228px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
