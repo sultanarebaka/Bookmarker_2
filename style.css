@@ -145,11 +145,15 @@ button:hover{
     background: #FAFCC2;
     transition: all 0.3s ease-in-out;
 }
-footer {
+.footer {
   padding-top: 228px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   color:black;
-  padding-left: 0px;
   font-size: .8em;
+}
+@media only screen and (min-width:700px){
+  footer{
+    display: flex;
+  }  
 }
